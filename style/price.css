@@ -28,7 +28,6 @@
 #links>a{
     /* border: 2px solid #e5d2dB; */
     border: 3px solid #e5d2dB;
-    border-bottom: 5px solid red;
     width: 25%;
     text-align: center;
     background-color: #fff;
@@ -37,4 +36,370 @@
     text-decoration: none;
     /* position: absolute; */
     z-index: -5px;
+    color: #444;
+    font-size: 18px;
+}
+
+#links .selected{
+    color: #000;
+    border-bottom: 5px solid #fff;
+    border-top: 3px solid #51E8D4;
+}
+
+#plansDetails{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap:10px;
+}
+.planCard{
+    width: 22%;
+    margin-top: 50px;
+    border: 2px solid #DCE1E9;
+    border-radius: 10px;
+    padding-left: 15px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.planTItle{
+    padding: 15px 0px;
+}
+/* .planSubTitle{
+    
+} */
+.planDiscrription{
+    padding: 15px 0px;
+}
+
+.priceBox{
+    padding: 20px 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.SignupButton{
+    width: 90%;
+    padding: 12px 10px;
+    margin:0px auto;
+    border-radius: 5px;
+}
+.free{
+    border: 2px solid #04454D;
+    background-color: #fff;
+    font-size: 20px;
+    
+}
+.free:hover{
+
+    cursor: pointer;
+    color: #fff  ;
+    background-color: #04454D;;
+}
+
+.paid{
+    border: none;
+    background-color: #08CF65;
+    font-size: 20px;
+    color: #fff;
+}
+
+.paid:hover{
+    cursor: pointer;
+    background-color: #01a74fde;
+}
+
+#showHideFeatures{
+        text-align: center;
+        padding: 50px;
+        color: #0A615A;
+}
+
+#showHideFeatures:hover{
+    cursor: pointer;
+}
+
+
+#marketingTerms.hide{
+    display: none;
+}
+#professionalServices.hide{
+    display: none;
+}
+#plansDetails.hide{
+    display: none;
+}
+#showHideFeatures.hide{
+    display: none;
+}
+#compareplans.hide{
+    display: none;
+}
+
+#compareplans.hide{
+    display: none;
+}
+#planFetures.hide{
+    display: none;
+}
+
+#planFetures{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+
+}
+
+.featuresCard{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 600px;
+    border: 1px solid #DCE1E9;
+    padding-left: 15px;
+}
+
+.bottom{
+    width: 100%;
+    margin:10px auto;
+}
+.featuresText{
+    padding: 10px 0px;
+}
+
+
+#compareplans{
+    width: 97%;
+    border-radius: 5px;
+    margin: 10px auto;
+    background-color: #EBF5F3;
+    background-image: url(https://web-static.wrike.com/content/themes/wrike/dist/img/vector/rebranding/price/banner-background-right.svg?v=e73c32e473);
+    min-height: 150px;
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+#marketingTerms{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px;
+    padding:20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+#marketingTerms button{
+    width: 100%;
+}
+
+#professionalServices{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:20px;
+    padding:20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-top: 100px;
+}
+#pricingnote{
+    text-align: center;
+    width: 80%;
+    margin: 80px auto;
+    font-size: 20px;
+}
+
+
+#externallinks{
+    display: flex;
+    justify-content: space-around;
+    /* gap: 25px; */
+}
+
+#trustedCustomer{
+    text-align: center;
+    font-size: 14px;
+    margin: 30px auto;
+    
+}
+
+#addonFeatures{
+    text-align: center;
+    background-color: #EBF5F3;
+}
+
+#addonFeatures>h1{
+    padding-top: 70px;
+}
+#addonFeatures>p{
+    width: 70%;
+    margin:15px auto;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+#addonfeatureBox{
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    gap: 25px;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+
+
+.addonCard{
+    background-color: #fff;
+    display: flex;
+    padding: 30px 10px;
+    gap:10px;
+}
+.addonCard p{
+    text-align: left;
+}
+.addonCard>div:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+
+#clientSuccess{
+    padding: 20px;
+   /* text-align: center; */
+}
+#clientSuccess>h2{
+    margin-top: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#clientSuccess>p{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+#ClientServices{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.clientCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   width:30%;
+
+   min-height: 250px;
+}
+.clientCard img{
+    width: 150px;
+}
+.clientCard h1{
+    text-align: left;
+}
+
+.clientCard p{
+    text-align: justify;
+}
+.clientCard img{
+    width: 60px;
+}
+
+#contactBtn{
+    width: 400px;
+    margin: 40px auto;
+    display: block;
+}
+
+
+
+
+
+
+
+#faqsection{
+    width: 100%;
+    background-color:  #EBF5F3;
+    /* margin: 50px auto; */
+}
+#faqsection h1{
+    text-align: center;
+    padding: 80px 0px 30px 0px;
+    font-size: 52px;
+
+}
+#faq{
+    width: 50%;
+    margin: 0px auto;
+    padding: 5px 20px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+#faq>div{
+    background-color: #fff;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #fff;
+}
+
+.quesion{
+    font-size: 22px;
+    font-weight: bold;
+}
+.answer{
+    padding-top: 20px;
+    font-size: 18px;
+}
+.answer p{
+    padding: 15px 0px;
+}
+#faq>div:hover{
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+
+/* #faqsection{
+   
+} */
+
+
+
+
+#contactus{
+    background-color:#04454D;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    color: #fff;
+}
+
+#contactusBtn{
+    padding: 10px 40px;
 }
