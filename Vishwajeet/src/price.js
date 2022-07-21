@@ -108,7 +108,8 @@ document.getElementById('showHideFeatures').addEventListener('click', showHideFe
 
 
 let showhideFaqs = (id)=>{
-    let ids = ['a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9'];
+    // let ids = ['a1', 'a2', 'a3', 'a4', 'a5', 'a6', 'a7', 'a8', 'a9'];
+  
     let andiv = document.getElementById(id)
     let ansDivClass  = andiv.getAttribute('class');
    if(ansDivClass=='hide'){
@@ -119,6 +120,8 @@ let showhideFaqs = (id)=>{
         andiv.setAttribute('class', 'hide');
    }
 }
+
+
 
 document.getElementById('q1').addEventListener('click', ()=>{
     showhideFaqs('a1');
