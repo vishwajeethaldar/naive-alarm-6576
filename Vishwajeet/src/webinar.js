@@ -294,9 +294,14 @@ let showhideFaqs = (id, id2)=>{
 
 
 document.getElementById('liveUpcomingsesison').addEventListener("click", ()=>{
+
+    document.getElementById('liveUpcomingsesison').setAttribute('class', 'selected')
+    document.getElementById('ondemandsession').removeAttribute('class', 'selected');
     showhideFaqs('upcomingliveSessionD', 'upcomingOndemandSession');
 });
 
 document.getElementById('ondemandsession').addEventListener("click", ()=>{
+    document.getElementById('ondemandsession').setAttribute('class', 'selected');
+    document.getElementById('liveUpcomingsesison').removeAttribute('class', 'selected');
     showhideFaqs('upcomingOndemandSession', 'upcomingliveSessionD');
 });

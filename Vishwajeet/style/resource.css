@@ -42,9 +42,10 @@
     padding-left: 15px;
 }
 
-/* #resource>div.card{
- 
-} */
+#resource>div.card{
+ padding: 0px;
+ height: 320px;
+}
 
 #resource>div.card p{
     padding: 10px 35px;

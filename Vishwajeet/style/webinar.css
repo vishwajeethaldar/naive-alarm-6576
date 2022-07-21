@@ -72,7 +72,7 @@ body{
     width: 30%;
     height: 380px;
     padding-bottom: 20px;
-    
+
 }
 
 #upcomingOndemandSession>div img{
@@ -97,7 +97,7 @@ body{
 #sessionTab button{
     padding: 10px 20px;
     border: none;
-    background: #fff;
+    
     font-size: 20px;
 }
 
@@ -112,4 +112,16 @@ body{
 
 #upcomingliveSessionD.hide{
     display: none;
+}
+
+#liveUpcomingsesison.selected{
+    border-top: 3px solid #359;
+    border-radius: 5px;
+    background: #fff;
+}
+
+#ondemandsession.selected{
+    border-top: 3px solid #359;
+    border-radius: 5px;
+    background: #fff;
 }

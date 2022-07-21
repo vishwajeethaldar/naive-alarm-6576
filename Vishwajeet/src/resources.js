@@ -404,12 +404,27 @@ filterTopic();
 
 let filterData = ()=>{
     let filtOpt = document.getElementById('filterTopic').value;
-    
-    let filData = resource.filter((el)=>{
-        return el.content_type == filtOpt; 
-    })
-
+    let filData; 
+    if(filtOpt=="Select Topic"){
+        console.log(filtOpt=="Select Topic");
+        filData = resource;
+    }else{
+         filData = resource.filter((el)=>{
+            return el.content_type == filtOpt; 
+        })
+    }
     appendResource(filData);
 }
 
 document.getElementById('filterTopic').addEventListener("change", filterData);
+
+
+
+let scrollcontainer = document.getElementById('resourceCards')
+
+scrollcontainer.addEventListener('wheel', (evt) => {
+    evt.preventDefault();
+    scrollcontainer.scrollLeft += evt.deltaY;
+    console.log(evt);
+    console.log(scrollcontainer.scrollLeft)
+});
