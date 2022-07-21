@@ -1,4 +1,6 @@
 import priceNote from '../components/priceNote.js'
+import {singupcontent} from '../components/signup.js'
+
 
 document.getElementById('pricingnote').innerHTML = priceNote();
 
@@ -164,4 +166,33 @@ document.getElementById('q9').addEventListener('click', ()=>{
 
 
 
+
+
+
+
+
+// signup form 
+
+
+let closeSignupForm = ()=>{
+    document.getElementById('signup').setAttribute("class","hide");
+    document.getElementById('signupDiv').setAttribute("class","hide");
+}
+
+
+
+let  showRegForm = ()=>{
+    document.getElementById('signupDiv').innerHTML = singupcontent();
+    document.getElementById('signup').removeAttribute("class","hide");
+    document.getElementById('signupDiv').removeAttribute("class","hide");
+    document.getElementById('close').addEventListener('click', closeSignupForm);
+    document.getElementById('signup').addEventListener('click', closeSignupForm);
+}
+
+
+let signupBtn = document.querySelectorAll('.SignupButton');
+signupBtn.forEach((el)=>{
+    el.addEventListener("click", showRegForm);
+})
+console.log(signupBtn);
 
