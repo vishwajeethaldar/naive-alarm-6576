@@ -88,7 +88,7 @@ body{
     display: flex;
     justify-content: center;
     gap:20px;
-    border-bottom: 2px solid #e5d2dB;
+    /* border-bottom: 2px solid #e5d2dB; */
     z-index: 0px;
 }
 

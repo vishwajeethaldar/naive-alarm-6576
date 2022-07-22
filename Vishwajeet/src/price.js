@@ -180,7 +180,6 @@ let closeSignupForm = ()=>{
 }
 
 
-
 let  showRegForm = ()=>{
     document.getElementById('signupDiv').innerHTML = singupcontent();
     document.getElementById('signup').removeAttribute("class","hide");
@@ -190,7 +189,7 @@ let  showRegForm = ()=>{
 }
 
 
-let signupBtn = document.querySelectorAll('.SignupButton');
+let signupBtn = document.querySelectorAll('.regBtn');
 signupBtn.forEach((el)=>{
     el.addEventListener("click", showRegForm);
 })
