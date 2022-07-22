@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.kaam{
+    background-color:#0c3245;
+}
+.daam h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 43px;
+    padding: 30px;
+    color: white;
+}
+.daam h2{
+    margin-top: 30px;
+    text-align: center;
+   /* font-size: large; */
+   /* font-weight: bold; */
+   color: white;
+}
+.small{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+  height: auto;
+}
+.subdiv{
+    /* border: 1px solid blue; */
+   width: 40%;
+   padding-top: 30px;
+}
+.subdiv p{
+    color: #b2c3d6;
+    font-weight:lighter;
+    margin-top: 20px;
+   
+}
+.subdiv h1{
+   padding: 20px 0 20px 0; 
+   color: white;
+
+}
+.subdiv h3{
+  line-height: 40px;  
+  color: white;
+}
+.subdiv input{
+    margin-top: 30px;
+    border: none;
+    background-color: transparent;
+    color:#08c75b;
+    font-size: large;
+}
+.div{
+    /* border: 1px solid yellow; */
+    width: 50%;
+    align-items: center;
+}
+.div div img{
+    width: 230%;
+}
+.div div{
+border-top-left-radius: 55%;
+    width: 300px;
+    height: 160px;
+    background-color:#04ba71; 
+}
+
+.border{
+    border: 2px solid #08cf65;
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+}
+.inside{
+    /* border: 1px solid orange; */
+    width: 80%;
+    margin: auto;
+    line-height: 50px;
+    margin-top: 50px;
+}
+.inside h1{
+    color: white;
+    font-weight: light;
+}
+.beside{
+    /* border: 1px solid red; */
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 40px;
+   margin-bottom: 50px;
+}
+.beside h3{
+    color: white;
+    text-align: center;
+}
+.div .best{
+    width: 250px;
+    height: 300px;
+    border-top-left-radius: 400px;
+   background-color: #8cf09b;
+}
+/* .div .mest{
+    width: 150px;
+    height: 200px;
+   transform: rotate(-180deg);
+   margin-left: 450px;
+  
+} */
+.div .best img{
+width: 270%;
+}
+.rotate{
+    border-top-left-radius: 55%;
+    width: 300px;
+    height: 160px;
+    background-color:#04ba71; 
+}
+.div .bests{
+    width: 250px;
+    height: 300px;
+    border-top-left-radius: 400px;
+   background-color:#08cf65;
+}
+.div .bests img{
+    width: 270%;
+    }
+    .dives{
+        width: 55%;
+    }
+    .dives img{
+        width: 100%;
+        margin-top: 30px;
+    }
+    .change{
+        border: 1px solid #181f38;;
+        background-color:#181f38;
+    }
+
