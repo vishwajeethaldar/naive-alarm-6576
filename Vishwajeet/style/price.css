@@ -1,9 +1,15 @@
 *{margin: 0px;padding: 0px; box-sizing: border-box;}
-
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    display: block;
+}
 body{
     position: relative;
 }
 
+/* popup sign up login div styling */
 #signup{
     position: fixed;
     top: 0vh;
@@ -51,6 +57,64 @@ body{
     padding-left: 10px;
     font-size: 18px;
 }
+.redoutline{
+    outline: 1px solid red;
+}
+#password{
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    min-height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.otpTitle{
+    text-align: center;
+    padding: 30px 5px;
+    font-size: 20px;
+}
+#otp{
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    min-height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+.error{
+    color: red;
+    padding: 10px 50px;
+}
+#otpbtn{
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    min-height: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    background-color: #08CF65;
+    color: #fff;
+}
+#otpbtn:hover{
+    cursor: pointer;
+}
+#validate{
+    width: 80%;
+    display: block;
+    margin: 10px auto;
+    min-height: 50px;
+    margin-top: 50px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+    background-color: #08CF65;
+    color: #fff;
+}
+#validate:hover{
+    cursor: pointer;
+}
 #signupbutton{
     width: 80%;
     display: block;
@@ -60,7 +124,7 @@ body{
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 20px;
-    background-color: green;
+    background-color: #08CF65;
     color: #fff;
 }
 #signupbutton:hover{

@@ -1,6 +1,6 @@
 import priceNote from '../components/priceNote.js'
 import {singupcontent} from '../components/signup.js'
-
+import {enterPassword} from '../components/signup.js'
 
 document.getElementById('pricingnote').innerHTML = priceNote();
 
@@ -193,5 +193,5 @@ let signupBtn = document.querySelectorAll('.regBtn');
 signupBtn.forEach((el)=>{
     el.addEventListener("click", showRegForm);
 })
-console.log(signupBtn);
+
 
