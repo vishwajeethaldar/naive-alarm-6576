@@ -31,7 +31,7 @@ let otpPage = (email)=>{
     `   <span id="close"><i class="fa-solid fa-xmark-large"></i>X</span>
         <div>
             <p class="otpTitle">Verify OTP sent to user email : ${email}</p>
-            <input type="text" name="otp" id="otp" placeholder="Enter OTP received in email">
+            <input type="text" name="otp" id="otp" placeholder="Enter email OTP  : default - 12345">
             <p class="error"> </p>
             <button id="otpbtn"> Validate OTP </button>
         </div>

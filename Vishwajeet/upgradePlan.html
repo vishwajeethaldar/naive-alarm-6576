@@ -1,0 +1,124 @@
+<script>
+    let LSFuser = JSON.parse(localStorage.getItem('loggedinUser'));
+    if(LSFuser==null){
+       window.location.href='./price.html';
+    }
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upgradePlan</title>
+    <link rel="stylesheet" href="./style/upgradePlan.css">    
+</head>
+<body>
+    <nav id="navbar">
+        <div id="brandLogo">
+           
+           <h1> <a href="./userPage.html">WRIKE</a></h1>
+        </div>
+        <div id="navMenus">
+            <p id="usrname">Need Help Contact us</p>
+        </div>
+</nav>
+
+<h1 class="pagetitle">Choose Your Plan</h1>    
+
+<div id="plansDetails">
+   
+    <div class="planCard">
+        <h2 class="planTItle">
+            Professional
+        </h2>
+
+        <h3 class="planSubTitle">
+            For fast growing teams
+        </h3>
+
+        <p class="Plan Discrription">
+            Project planning and team collaboration
+        </p>
+
+        <div class="priceBox">
+                <div class="planprice">
+                    <h2>$9.80</h2>
+                </div>
+                <div id="planduration">
+                        <p>user/</p>
+                        <p>Month</p>
+                </div>
+        </div>
+
+        <button class="SignupButton paid regBtn">
+               Select Professional
+        </button>
+    </div>
+
+    <div class="planCard">
+        <h2 class="planTItle">
+            Business
+        </h2>
+
+        <h3 class="planSubTitle">
+            For all teams across an organization
+        </h3>
+
+        <p class="Plan Discrription">
+            Customized platform for any team or use case
+        </p>
+
+        <div class="priceBox">
+                <div class="planprice">
+                    <h2>$24.80</h2>
+                </div>
+                <div id="planduration">
+                        <p>user/</p>
+                        <p>Month</p>
+                </div>
+        </div>
+
+        <button class="SignupButton paid regBtn">
+              Select Business
+        </button>
+    </div>
+
+    <div class="planCard">
+        <h2 class="planTItle">
+            Enterprise
+        </h2>
+
+        <h3 class="planSubTitle">
+            For large teams
+
+        </h3>
+
+        <p class="planDiscrription">
+            Enterprise-grade security and scalability
+        </p>
+
+        <div class="priceBox">
+                <div class="planprice">
+                    <h2>$24.80</h2>
+                </div>
+                <div id="planduration">
+                        <p>user/</p>
+                        <p>Month</p>
+                </div>
+        </div>
+
+     
+        <button class="SignupButton paid regBtn">
+            Select Enterprise
+        </button>
+    </div>
+
+
+</div>
+
+
+</body>
+</html>
+
+<script src="./src/upgradeplan.js"> </script>
