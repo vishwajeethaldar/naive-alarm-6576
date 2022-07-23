@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     transition: all 0.4s ease;
-    color: #000;
+    /* color: #000; */
  }
 
 #mains{
@@ -90,7 +90,7 @@ nav .navbar .nav-links{
     text-decoration: none;
     white-space: nowrap;
 }
-nav .navbar .nav-links .links li a:hover{
+nav .navbar .nav-links .links li>a:hover{
     color: #0ac464;
 }
 nav .navbar .nav-links .links li .arrow{

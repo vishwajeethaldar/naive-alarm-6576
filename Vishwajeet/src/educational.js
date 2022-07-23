@@ -1,6 +1,9 @@
 import navbar from '../components/navbar.js';
 document.getElementById('mains').innerHTML = navbar();
 
+import footer from '../components/footer.js'
+document.getElementById('footer').innerHTML = footer();
+
 let guides = [
     {
         image:"https://web-static.wrike.com/tp/storage/uploads/1bb7e7d3-8b3f-4090-bad8-4663b641bf2f/rebrand-icon-teams-project-management-pmo-inverse.svg",

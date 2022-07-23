@@ -6,6 +6,10 @@ document.getElementById('pricingnote').innerHTML = priceNote();
 
 document.getElementById('mains').innerHTML = navbar();
 
+import footer from '../components/footer.js'
+document.getElementById('footer').innerHTML = footer();
+
+
 let changeSelected =(item)=>{
     let links  = document.querySelectorAll("#links>a");
     links.forEach((el) => {
