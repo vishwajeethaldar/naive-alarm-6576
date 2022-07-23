@@ -1,0 +1,20 @@
+
+==   Project Code : naive-alarm-6576 ==========
+== Project : https://www.wrike.com   ===========
+
+Team Head =  fw19_0417-Vishwajeet Haldar	: 	onlyjeet3@gmail.com		
+Member1 = fp04_185-Baig Kalesha			:	kalesha786kareem@gmail.com				
+Member2 = fw18_0047-Ghanisht Khurana		:	ghanishtkhurana9@gmail.com
+Member3 = fw19_1008-Prashant Rao Gunjal		:	sampatgunjal42@gmail.com
+							prashantraogunjal1562@gmail.com	
+Member4 = fw18_0698-Mamta			: 	mamtaashu926@gmail.com
+
+
+
+Tast 1 - 
+
+# Top Navigation, Home Page, Footer 	- 	fw19_1008-Prashant Rao Gunjal	
+# Pages inside Product Menu 		-  	fp04_185-Baig Kalesha.
+# Pages inside Solutions Menu 		-  	fw18_0047-Ghanisht Khurana.
+# Pricig , Resources 			- 	fw19_0417-Vishwajeet Haldar
+# Login Signup Functionality 		-  	fw18_0698-Mamta
