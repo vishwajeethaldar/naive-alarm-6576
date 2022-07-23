@@ -1,0 +1,84 @@
+*{margin: 0px;padding: 0px; box-sizing: border-box;}
+
+#externallinks{
+    width: 80%;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-around;
+    /* gap: 25px; */
+    border: 1px solid #eee;
+    padding: 50px 20px;
+}
+
+#pagetitle{
+    text-align: center;
+    min-height: 300px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#pagetitle>h1{
+    font-size: 52px;
+}
+
+.italic{
+    font-family:cursive;
+    font-weight: lighter;
+    color: rgb(27, 236, 27);
+}
+
+#pagetitle>p{
+    font-size: 28px;
+    color: #777;
+}
+
+#singuptrinal{
+    display: flex;
+}
+#singuptrinal input{
+    min-height: 40px;
+    width: 350px;
+    padding-left: 10px;
+    border: none;
+    outline: none;
+    border: 1px solid #ccc;
+}
+
+#singuptrinal button{
+    min-height: 40px;
+    padding: 10px 25px;
+    color: #fff;
+    background-color: rgb(27, 236, 27);
+    border: 5px solid rgb(27, 236, 27);
+}
+#singuptrinal button:hover{
+    cursor: pointer;
+}
+
+#blogs{
+    display:grid;
+    grid-template-columns:repeat(3, 30%);
+    gap:20px;
+    justify-content: center;
+    padding: 70px 30px;
+}
+
+#blogs>div img{
+    width: 100%;
+}
+
+#blogs>div p:nth-child(2){
+    font-weight: bold;
+    color: #ccc;
+    padding: 20px 0px;
+}
+#blogs>div p:nth-child(3){
+    font-weight: bold;
+    padding: 10px 0px;
+}
+
+

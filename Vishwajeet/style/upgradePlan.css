@@ -1,0 +1,174 @@
+
+ *{margin: 0px; padding: 0px; box-sizing: border-box;}
+ a{
+     text-decoration: none;
+     color: #fff;
+ } 
+ .pagetitle{
+    text-align: center;
+    padding: 50px 0px;
+ }
+#navbar{
+ background-color: #04454D;
+ min-height: 50px;
+ display: flex;
+ justify-content: space-between;
+ padding: 5px 50px;
+ align-items: center;
+}
+
+#brandLogo>h1{
+ color: #FFF;
+}
+
+#usrname{
+ 
+ padding: 10px 8px;
+ text-align: center;
+ color: #fff;
+}
+
+#plansDetails{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    gap:10px;
+}
+.planCard{
+    width: 22%;
+    margin-top: 50px;
+    border: 2px solid #DCE1E9;
+    border-radius: 10px;
+    padding-left: 15px;
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.planTItle{
+    padding: 15px 0px;
+}
+/* .planSubTitle{
+    
+} */
+.planDiscrription{
+    padding: 15px 0px;
+}
+
+.priceBox{
+    padding: 20px 0px;
+    display: flex;
+    gap: 10px;
+}
+
+.SignupButton{
+    width: 90%;
+    padding: 12px 10px;
+    margin:0px auto;
+    border-radius: 5px;
+}
+.free{
+    border: 2px solid #04454D;
+    background-color: #fff;
+    font-size: 20px;
+    
+}
+.free:hover{
+
+    cursor: pointer;
+    color: #fff  ;
+    background-color: #04454D;;
+}
+
+.paid{
+    border: none;
+    background-color: #08CF65;
+    font-size: 20px;
+    color: #fff;
+}
+
+.paid:hover{
+    cursor: pointer;
+    background-color: #01a74fde;
+}
+
+
+#paymentDiv{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(2, 90, 105, 0.8);
+    z-index: 1;
+}
+
+#payform{
+    position: absolute;
+    top: 70px;
+    left: 30%;
+    background-color: #ccc;
+    min-width: 40%;
+    height: 400px;
+    display: flex;
+    padding: 20px;
+    border-radius: 7px;
+    z-index: 2;
+}
+#Payfrm{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#Payfrm h1{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+#Payfrm input{
+    min-height: 35px;
+    width: 300px;
+    padding-left: 15px;
+}
+
+#Payfrm #ccardno{
+    width: 226px;
+}
+#Payfrm #ccvv{
+    width: 70px;
+}
+#submit{
+    background-color: #08CF65;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+}
+#payDetails{
+    text-align: center;
+}
+#payDetails>h2{
+   padding-left: 50px;
+   padding-top: 70px;
+   padding-bottom: 10px;
+   text-transform: uppercase;
+}
+
+#plan{
+    text-align: left;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+#closebtn:hover{
+    cursor: pointer;
+}
+
+#paymentDiv.hide{
+    display: none;
+}
