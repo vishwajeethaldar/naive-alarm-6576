@@ -1,3 +1,14 @@
+<script>
+    let LSFuser = JSON.parse(localStorage.getItem('loggedinUser'));
+    if(LSFuser==null){
+       window.location.href='./login.html';
+    }
+</script>
+
+
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -25,11 +36,13 @@
 
 <div id="plus">+</div>
 <div id="mk">
-    MK 
+    logout
 </div>
         </div>
     </div>
-
+    <div   id="hov">
+       
+    </div>
 <h3>Inbox</h3>
 <p>AI Recommended tasks</p>
     <div id="container">
@@ -71,5 +84,10 @@
             <div>Recycle bin</div>
         </div>
     </div>
+
+
+   
 </body>
+
+<script src="./scripts/personal.js"></script>
 </html>

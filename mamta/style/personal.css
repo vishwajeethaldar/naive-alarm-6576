@@ -21,7 +21,7 @@ background-color: rgb(4 69 77)
     /* border: 1px solid green; */
     display: flex;
     justify-content: space-between;
-    gap:0px;
+    gap:5px;
 /* margin:auto */
 margin-left: 100px;
 margin-top: 10px;
@@ -40,6 +40,16 @@ margin-top: 10px;
     justify-items: center;
     font-size: 30px;
 }
+#hov{
+    width:250px;
+    /* border: 1px solid red; */
+    margin-left: 1250px;
+    position:absolute;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    background-color: grey;
+}
+
+
 
 #search{
 border-radius: 10px;
@@ -86,6 +96,8 @@ h2{
     height: 40vw;
     margin-top: 20px;
     justify-content: space-between;
+    position:relative
+
 }
 
 

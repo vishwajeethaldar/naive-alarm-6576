@@ -1,6 +1,6 @@
 document.querySelector("#btn").addEventListener("click",myfunction)
 
-var arr=JSON.parse(localStorage.getItem("alldata")) || []
+var arr=JSON.parse(localStorage.getItem("users")) || []
 function myfunction()
 {
 
@@ -13,11 +13,11 @@ function myfunction()
     }
     arr.push(obj)
     console.log(arr)
-    localStorage.setItem("alldata",JSON.stringify(arr));
+    localStorage.setItem("users",JSON.stringify(arr));
 
 
     if(document.querySelector("#name").value=="" || document.querySelector("#phone").value=="" ||
-     document.querySelector("#email").value=="" || document.querySelector("#compgit ").value=="")
+     document.querySelector("#email").value=="" || document.querySelector("#comp").value=="")
     {
         alert("enter all details")
     }

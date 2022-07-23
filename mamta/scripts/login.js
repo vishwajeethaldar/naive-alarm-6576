@@ -5,21 +5,36 @@ function display()
     // window.location.href="index.html"
     var enteremail=document.querySelector("#Email").value;
     var enterpassword=document.querySelector("#pass").value;
-    var login=JSON.parse(localStorage.getItem("alldata"));
-    var flag= false;
-    login.forEach(value => {
-        if(value.email==enteremail && value.comp==enterpassword)
-        {
-            flag=true;
-        }
+
+    console.log(enteremail)
+    console.log(enterpassword)
+    var login=JSON.parse(localStorage.getItem("users")) || []
+
+
+    console.log(login)
+    var flag=     login.filter(value => {
+        // if(value.email==enteremail && value.comp==enterpassword)
+        // {
+        //     flag=true;
+        // }
+// console.log(value.email==enteremail,value.password==enterpassword)
+        return value.email==enteremail && value.password==enterpassword
     });
-    if(flag)
+    console.log(flag)
+    if(flag.length>0)
     {
-        alert("incorrect credentials")
+        
+    localStorage.setItem("loggedinUser",JSON.stringify(flag[0]))
+        alert("log in suceessfully")
+        window.location.href="personal.html"
+
     }
     else{
         
-        alert("log in suceessfully")
-        window.location.href="index.html"
+        
+       
+        alert("incorrect credentials")
     }
+        
+    
 }
