@@ -1,0 +1,93 @@
+<script>
+    let LSFuser = JSON.parse(localStorage.getItem('loggedinUser'));
+    if(LSFuser==null){
+       window.location.href='./login.html';
+    }
+</script>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal.html</title>
+    <link rel="stylesheet" href="./style/personal.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="img">
+       <img src="data:image/png;base64,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" alt="">
+        </div>
+        <div id="wrike">
+            <img src="https://www.paubox.com/blog/wp-content/uploads/2021/11/Untitled-design-1-2.png" alt="">
+<h2> wrike</h2>
+        </div>
+        <div id="box">
+<div >   
+    <input id="search" type="text" placeholder="search">   
+    
+    
+</div>
+
+<div id="plus">+</div>
+<div id="mk">
+    logout
+</div>
+        </div>
+    </div>
+    <div   id="hov">
+       
+    </div>
+<h3>Inbox</h3>
+<p>AI Recommended tasks</p>
+    <div id="container">
+        <div id="index">
+            <h4>No Updates yet</h4>
+            <p>Invite your team members to start collaborating</p>
+            <h5>send invitations</h5>
+        </div>
+        <div id="middle">
+            <div id="allrecom">
+         <p>once you start working on tasks, you'll start seeing recommendations here. Learn more about recommended tasks</p>
+            </div>
+            <p>Spaces</p>
+            <div id="spaces">
+            <div class="spaces">Personal</div>
+            <div class="=spaces">The Dream team</div>
+
+        </div>
+       <p>Recent</p> 
+        <div id="recent">
+      <div class="recent">Product Launch</div>
+      <div class="recent" >Next Year</div>
+      <div class="recent" >Next Month</div>
+      <div class="recent" >This Week</div>
+        </div>
+        </div>
+        <div id="list">
+            <div>My to-do</div>
+            <div>Created by me</div>
+            <div>Starred tasks</div>
+            <div>Calenders</div>
+            <div>Timesheets</div>
+            <div>Dashiboards</div>
+            <div>Reports</div>
+            <div>Workload</div>
+            <div>Stream</div>
+            <div>Shared with me</div>
+            <div>Blueprints</div>
+            <div>Recycle bin</div>
+        </div>
+    </div>
+
+
+   
+</body>
+
+<script src="./scripts/personal.js"></script>
+</html>
