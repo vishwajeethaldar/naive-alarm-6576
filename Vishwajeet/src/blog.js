@@ -1,3 +1,7 @@
+import navbar from '../components/navbar.js';
+document.getElementById('mains').innerHTML = navbar();
+
+
 let blogs = [
     {
         image:'https://web-static.wrike.com/cdn-cgi/image/width=328,height=187,fit=crop,format=auto,q=80/blog/content/uploads/2022/07/iStock-1162153258-e1657551905368.jpg?av=4e398b4e1fe258a2927839072b931a8a',

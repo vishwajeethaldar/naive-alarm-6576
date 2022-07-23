@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="./style/upgradePlan.css">    
 </head>
 <body>
+
     <nav id="navbar">
         <div id="brandLogo">
            
@@ -51,7 +52,7 @@
                 </div>
         </div>
 
-        <button class="SignupButton paid regBtn">
+        <button class="SignupButton paid regBtn" id="professional">
                Select Professional
         </button>
     </div>
@@ -79,7 +80,7 @@
                 </div>
         </div>
 
-        <button class="SignupButton paid regBtn">
+        <button class="SignupButton paid regBtn" id="business">
               Select Business
         </button>
     </div>
@@ -109,7 +110,7 @@
         </div>
 
      
-        <button class="SignupButton paid regBtn">
+        <button class="SignupButton paid regBtn" id="enterprise">
             Select Enterprise
         </button>
     </div>
@@ -117,6 +118,37 @@
 
 </div>
 
+
+
+<div id="paymentDiv" class="hide">
+
+    <div id="payform">
+        <p id="closebtn"> X</p>
+        <div>
+            <form id="Payfrm">
+                <h1 class="paytitle"> Payment Details</h1>
+                <input type="text" name="name" id="cname" placeholder="Type your Name" required>
+                <input type="text" name="address" id="caddress" placeholder="Type Your Address" required>
+                <input type="text" name="mobile" id="cmobile" placeholder="Type your Mobile" required>
+                <div id="carddetails">
+                    <input type="text" name="cardnumber" id="ccardno" placeholder="Debit Card No" required>
+                    <input type="text" name="CVV" id="ccvv" placeholder="CVV" required>       
+                </div>
+
+                <input type="submit" id="submit" value="Proceed"> 
+            </form>            
+        </div>
+
+        <div id="payDetails">
+                <h2>Plan Info</h2>
+                <div id="plan">
+                    <p> <strong>Plan Name :</strong> <span id="planName"> </span></p>
+                    <p> <strong>Price :</strong> <span id="planPrice"> </span> Monthly</p>
+                    <p> <strong>Total Price :</strong> <span id="totalPrice"> </span> Annual</p>
+                </div>
+        </div>
+    </div>
+</div>
 
 </body>
 </html>

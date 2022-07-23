@@ -1,3 +1,7 @@
+import navbar from '../components/navbar.js';
+document.getElementById('mains').innerHTML = navbar();
+
+
 import {user, ugroup} from '../src/classes.js';
 import {singupcontent, enterPassword, otpPage} from '../components/signup.js'
 // import {} from '../components/signup.js'
@@ -37,7 +41,7 @@ let  validateuser = (email, pwd)=>{
             err.innerText = 'Invalid Password';
         }
     }else{
-        usr  = new user(email, pwd);
+        usr  = new user("", email, "", pwd);
             document.getElementById('signupDiv').innerHTML = otpPage(email);
             document.getElementById('otpbtn').addEventListener('click', ()=>{
             login(usr);

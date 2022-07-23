@@ -49,14 +49,13 @@
     gap: 20px;
 }
 
-input, select{
+#formContainer input, #formContainer select{
     min-height: 50px;
     width: 550px;
     padding-left: 15px;
     font-size: 20px;
     border: 3px solid #ccc;
     border-radius: 3px;
-    
 }
 
 #getintouch{

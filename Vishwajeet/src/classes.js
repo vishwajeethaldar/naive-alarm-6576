@@ -22,8 +22,10 @@ let ugroup = class{
     }
 }
 let user =class{
-    constructor(email, pwd){
+    constructor(name, email, mobile, pwd){
+        this.name = name,
         this.email = email,
+        this.mobile = mobile,
         this.password = pwd
     }
 }

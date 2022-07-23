@@ -90,3 +90,27 @@
     background-repeat: no-repeat;
     background-position: 50px;
 }
+
+#upgrade.hide{
+    display: none;
+}
+
+#activePlan{
+    position: absolute;
+    left: 450px;
+    top: 70px;
+    border: 2px solid #ccc;
+    width: 300px;
+    height: 420px;
+    border-radius: 20px;
+    background-color: #eee;
+}
+#activePlan>p{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 42px;
+    color: #0a7424;
+}
+#activePlan.hide{
+    display: none;
+}

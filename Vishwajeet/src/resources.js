@@ -1,3 +1,7 @@
+import navbar from '../components/navbar.js';
+document.getElementById('mains').innerHTML = navbar();
+
+
 let slides = [
     {
         imglink:'https://web-static.wrike.com/cdn-cgi/image/format=auto,quality=80,width=297,dpr=2/tp/storage/uploads/e6ebed47-7309-4d57-9073-abc383370379/use-case-carnival.png',

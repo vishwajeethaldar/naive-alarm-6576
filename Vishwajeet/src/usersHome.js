@@ -1,5 +1,15 @@
 let datafls = JSON.parse(localStorage.getItem('loggedinUser'));
 
+let plan = JSON.parse(localStorage.getItem('regplan'));
+if(plan!==null){
+    // document.getElementById('upgrade').setAttribute('class', 'hide');
+    document.getElementById('activePlan').removeAttribute('class', 'hide');
+    let div = document.getElementById('activePlan');
+    let  planname = document.createElement('p')
+    planname.innerText = `Active Plan ${plan.planname} `;
+    div.append(planname)
+}
+
 
 document.getElementById('usrmmail').innerText = datafls.email;
 
@@ -29,6 +39,8 @@ let signout = ()=>{
     localStorage.removeItem('loggedinUser');
     window.location.reload();
 }
+
+
 
 document.getElementById('usrsignout').addEventListener('click', signout);
 

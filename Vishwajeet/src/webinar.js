@@ -1,3 +1,7 @@
+import navbar from '../components/navbar.js';
+document.getElementById('mains').innerHTML = navbar();
+
+
 let webinars = [
     {
         image:"https://web-static.wrike.com/cdn-cgi/image/format=auto,quality=80,width=297,dpr=2/tp/storage/uploads/9fbf4eb4-df34-4648-974e-ed7b571179eb/how-icims-elevated-its-creative-workflow-process-with-wrike-2x.png",

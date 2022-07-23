@@ -1,9 +1,10 @@
 import priceNote from '../components/priceNote.js'
 import {singupcontent} from '../components/signup.js'
 import {enterPassword} from '../components/signup.js'
-
+import navbar from '../components/navbar.js';
 document.getElementById('pricingnote').innerHTML = priceNote();
 
+document.getElementById('mains').innerHTML = navbar();
 
 let changeSelected =(item)=>{
     let links  = document.querySelectorAll("#links>a");
