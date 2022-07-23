@@ -1,0 +1,224 @@
+#container{
+    display: flex;
+    background-color:#0c3245;
+}
+.shape{
+
+    width: 20%;
+  
+}
+.shape .oval{
+    position: absolute;
+    width: 400px;
+    height: 150px;
+    border-radius: 80px;
+    transform: rotate(90deg);
+   top: 20%;
+   left: -6%;
+   background-color: #0a615a;
+}
+.shape .circle{
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 200px;
+    top: 30%;
+    left: -3%;
+    background-color:#ffd453;
+}
+.shape .triangle{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-top-right-radius: 100px;
+    margin-left: 150px;
+    top: 45%;
+    left: 2.5%;
+    background-color: #f5f2eb;
+}
+
+.subject h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 30px;
+    color: white;
+}
+.subject p{
+    font-weight:lighter;
+    margin-top: 20px;
+    text-align: center;
+    font-size: larger;
+    color: white;
+}
+.subject{
+    width: 70%;
+ }
+ .subject div{
+    margin-left:350px;
+    width: 60%;
+    margin: auto;
+ }
+div>button{
+  margin-top: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color:#08cf65;
+  width: 30%;
+  font-size: larger;
+  font-weight: bolder;
+  border: none;
+  cursor: pointer;
+ 
+ }
+ .box{
+     margin-top: 40px;
+     padding: 20px;
+     border-radius: 5px;
+     width: 60%;
+     font-size: larger;
+     font-weight: bolder;
+ }
+
+ .chand{
+    width: 20%;
+ }
+ .chand .semi{
+    width: 200px;
+    height: 200px;
+    border-top-left-radius: 200px;
+    background:#0a615a ;
+    position: absolute;
+   top:30%;
+   right: 2%;
+ }
+ .chand .moon{
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    height: 100px;
+    width: 200px;
+    border-radius: 150px 150px 0 0;
+    transform: rotate(135deg);
+    background-color:#9fe0e8 ;
+ }
+ 
+ .grade{
+    margin-top: 140px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    background-color: #0c3245;
+    margin: auto;
+    padding: 140px;
+    height: 670px;
+ }
+ 
+ .first{
+    width: 80%;
+ }
+ .first h2{
+    color: white;
+ }
+ .first h3:hover{
+    cursor: pointer;
+    color: #43f596;
+    text-decoration: underline;
+    
+ }
+ .first h3{
+    color: #b4c0c5;
+ }
+.two{
+    width: 80%; 
+}
+.two h2{
+    color: white;
+}
+.two h3{
+    color: #b4c0c5;
+}
+.two h3:hover{
+    cursor: pointer;
+    color: #43f596;
+    text-decoration: underline;
+}
+.third{
+ 
+    width: 80%; 
+}
+.third h2{
+    color: white;
+}
+.third h3{
+    color: #b4c0c5;
+}
+.third h3:hover{
+    cursor: pointer;
+    color: #43f596;
+    text-decoration: underline;
+}
+.four{
+    width: 80%;
+}
+.four h2{
+    color: white;
+}
+.four h3{
+    color: #b4c0c5;
+}
+.four h3:hover{
+    cursor: pointer;
+    color: #43f596;
+    text-decoration: underline;
+}
+.fifth{
+    width: 130%;
+}
+.fifth h2{
+    color: white;
+}
+.fifth h3{
+    color: #b4c0c5;
+    line-height: 30px;
+}
+.fifth h3:hover{
+    cursor: pointer;
+    color: #43f596;
+    text-decoration: underline;
+}
+.footer{
+    border: 1px solid rgb(110, 102, 102);
+    display: flex;
+    width: 600%;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+.apple{
+   width: 20%;
+}
+.apple img{
+    width: 49%;
+    margin-top: 20px;
+}
+.apple>img:hover{
+    cursor: pointer;
+}
+.social{
+    width: 30%;
+    align-items: center;
+    margin: auto;
+}
+.social img{
+    width: 5%;
+    margin-right: 60px;
+}
+.social>img:hover{
+    cursor: pointer;
+}
+.footer .content{
+    width: 40%;
+}
+.footer div h4{
+    color: #b4c0c5;
+}
