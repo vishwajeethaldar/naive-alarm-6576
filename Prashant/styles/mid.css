@@ -2,9 +2,16 @@
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
+    /* background-color:#0c3245; */
+}
+#mid{
+    background-color:#0c3245;
 }
 .kaam{
     background-color:#0c3245;
+}
+.daam{
+    background-color:#0c3245; 
 }
 .daam h1{
     text-align: center;
@@ -12,6 +19,7 @@
     font-size: 43px;
     padding: 30px;
     color: white;
+    background-color:#0c3245;
 }
 .daam h2{
     margin-top: 30px;
@@ -19,6 +27,7 @@
    /* font-size: large; */
    /* font-weight: bold; */
    color: white;
+   background-color:#0c3245;
 }
 .small{
     /* border: 1px solid red; */
@@ -28,33 +37,45 @@
   margin: auto;
   margin-top: 70px;
   height: auto;
+   background-color:#0c3245; 
+   margin-bottom: 20px;
 }
 .subdiv{
     /* border: 1px solid blue; */
    width: 40%;
    padding-top: 30px;
+   background-color:#0c3245;
 }
 .subdiv p{
     color: #b2c3d6;
     font-weight:lighter;
     margin-top: 20px;
+    background-color:#0c3245;
    
 }
 .subdiv h1{
    padding: 20px 0 20px 0; 
    color: white;
+   background-color:#0c3245;
+   text-align: left;
 
 }
 .subdiv h3{
   line-height: 40px;  
   color: white;
+  background-color:#0c3245;
+  text-align: left;
 }
-.subdiv input{
+.small .subdiv input{
     margin-top: 30px;
     border: none;
     background-color: transparent;
     color:#08c75b;
     font-size: large;
+}
+.subdiv input:hover{
+    cursor: pointer;
+    color: #8cf09b;
 }
 .div{
     /* border: 1px solid yellow; */
@@ -63,19 +84,23 @@
 }
 .div div img{
     width: 230%;
+    background-color:#0c3245;
 }
 .div div{
 border-top-left-radius: 55%;
     width: 300px;
     height: 160px;
     background-color:#04ba71; 
+    /* border: 1px solid rgb(44, 159, 21); */
 }
 
 .border{
     border: 2px solid #08cf65;
     width: 80%;
     margin: auto;
-    margin-top: 80px;
+    margin-top: 100px;
+    background-color:#0c3245;
+    margin-bottom: 80px;
 }
 .inside{
     /* border: 1px solid orange; */
@@ -83,10 +108,14 @@ border-top-left-radius: 55%;
     margin: auto;
     line-height: 50px;
     margin-top: 50px;
+    /* background-color:#0c3245; */
+   
 }
 .inside h1{
     color: white;
     font-weight: light;
+    background-color:#0c3245;
+    text-align: left;
 }
 .beside{
     /* border: 1px solid red; */
@@ -96,17 +125,20 @@ border-top-left-radius: 55%;
     margin: auto;
     margin-top: 40px;
    margin-bottom: 50px;
+   background-color:#0c3245;
 }
 .beside h3{
     color: white;
     text-align: center;
+    background-color:#0c3245;
 }
-.div .best{
+ .div .best{
     width: 250px;
     height: 300px;
     border-top-left-radius: 400px;
-   background-color: #8cf09b;
-}
+   background-color: #8cf09b; 
+   /* border: 1px solid rgb(200, 0, 255); */
+} 
 /* .div .mest{
     width: 150px;
     height: 200px;
@@ -114,6 +146,9 @@ border-top-left-radius: 55%;
    margin-left: 450px;
   
 } */
+.beside img{
+    background-color:#0c3245;
+}
 .div .best img{
 width: 270%;
 }
@@ -127,7 +162,7 @@ width: 270%;
     width: 250px;
     height: 300px;
     border-top-left-radius: 400px;
-   background-color:#08cf65;
+   background-color:#59ce90;
 }
 .div .bests img{
     width: 270%;
@@ -138,9 +173,11 @@ width: 270%;
     .dives img{
         width: 100%;
         margin-top: 30px;
+        background-color:#0c3245;
+
     }
     .change{
-        border: 1px solid #181f38;;
+        border: 1px solid #1033b0;
         background-color:#181f38;
+        
     }
-

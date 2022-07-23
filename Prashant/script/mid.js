@@ -1,14 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="mid-section.css">
-</head>
-<body>
-    
+let mid= () =>{
+    return ` 
     <div class="kaam">
           <div class="daam">
           <h1>Transform the way your teams work</h1>
@@ -138,10 +129,12 @@
                     </div>
             <div class="dives">         
               <img src="https://web-static.wrike.com/content/uploads/2022/04/rebrand-promo-integrations_colored-bg_tablet-mobile.svg?av=e426b481d56a93be469ece759c26fc0f" alt="">
-                        
+              
+              
                 </div>
             </div>
 
-        </div>
-</body>
-</html>
+        </div>`;
+}
+ 
+export default mid;
