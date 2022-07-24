@@ -1,0 +1,156 @@
+<script>
+    let LSFuser = JSON.parse(localStorage.getItem('loggedinUser'));
+    if(LSFuser==null){
+       window.location.href='./index.html';
+    }
+</script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>upgradePlan</title>
+    <link rel="stylesheet" href="./style/upgradePlan.css">    
+</head>
+<body>
+
+    <nav id="navbar">
+        <div id="brandLogo">
+           
+           <h1> <a href="./userPage.html">WRIKE</a></h1>
+        </div>
+        <div id="navMenus">
+            <p id="usrname">Need Help Contact us</p>
+        </div>
+</nav>
+
+<h1 class="pagetitle">Choose Your Plan</h1>    
+
+<div id="plansDetails">
+   
+    <div class="planCard">
+        <h2 class="planTItle">
+            Professional
+        </h2>
+
+        <h3 class="planSubTitle">
+            For fast growing teams
+        </h3>
+
+        <p class="Plan Discrription">
+            Project planning and team collaboration
+        </p>
+
+        <div class="priceBox">
+                <div class="planprice">
+                    <h2>$9.80</h2>
+                </div>
+                <div id="planduration">
+                        <p>user/</p>
+                        <p>Month</p>
+                </div>
+        </div>
+
+        <button class="SignupButton paid regBtn" id="professional">
+               Select Professional
+        </button>
+    </div>
+
+    <div class="planCard">
+        <h2 class="planTItle">
+            Business
+        </h2>
+
+        <h3 class="planSubTitle">
+            For all teams across an organization
+        </h3>
+
+        <p class="Plan Discrription">
+            Customized platform for any team or use case
+        </p>
+
+        <div class="priceBox">
+                <div class="planprice">
+                    <h2>$24.80</h2>
+                </div>
+                <div id="planduration">
+                        <p>user/</p>
+                        <p>Month</p>
+                </div>
+        </div>
+
+        <button class="SignupButton paid regBtn" id="business">
+              Select Business
+        </button>
+    </div>
+
+    <div class="planCard">
+        <h2 class="planTItle">
+            Enterprise
+        </h2>
+
+        <h3 class="planSubTitle">
+            For large teams
+
+        </h3>
+
+        <p class="planDiscrription">
+            Enterprise-grade security and scalability
+        </p>
+
+        <div class="priceBox">
+                <div class="planprice">
+                    <h2>$24.80</h2>
+                </div>
+                <div id="planduration">
+                        <p>user/</p>
+                        <p>Month</p>
+                </div>
+        </div>
+
+     
+        <button class="SignupButton paid regBtn" id="enterprise">
+            Select Enterprise
+        </button>
+    </div>
+
+
+</div>
+
+
+
+<div id="paymentDiv" class="hide">
+
+    <div id="payform">
+        <p id="closebtn"> X</p>
+        <div>
+            <form id="Payfrm">
+                <h1 class="paytitle"> Payment Details</h1>
+                <input type="text" name="name" id="cname" placeholder="Type your Name" required>
+                <input type="text" name="address" id="caddress" placeholder="Type Your Address" required>
+                <input type="text" name="mobile" id="cmobile" placeholder="Type your Mobile" required>
+                <div id="carddetails">
+                    <input type="text" name="cardnumber" id="ccardno" placeholder="Debit Card No" required>
+                    <input type="text" name="CVV" id="ccvv" placeholder="CVV" required>       
+                </div>
+
+                <input type="submit" id="submit" value="Proceed"> 
+            </form>            
+        </div>
+
+        <div id="payDetails">
+                <h2>Plan Info</h2>
+                <div id="plan">
+                    <p> <strong>Plan Name :</strong> <span id="planName"> </span></p>
+                    <p> <strong>Price :</strong> <span id="planPrice"> </span> Monthly</p>
+                    <p> <strong>Total Price :</strong> <span id="totalPrice"> </span> Annual</p>
+                </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
+
+<script src="./src/upgradeplan.js"> </script>

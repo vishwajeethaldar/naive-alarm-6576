@@ -1,0 +1,85 @@
+#footer{
+    background-color:#0c3245;
+    padding-top:50px;
+    /* padding-bottom: 1px; */
+}
+#footertoppart{
+    text-decoration: none;
+    color: #ccc;
+    font-size: 14px;
+}
+
+footer#footer div#footertoppart div.card>a {
+    color: #fff;
+    line-height: 40px;
+    font-size: 12px;
+    text-decoration: none;
+}
+footer#footer div#footermiddlepart div.card>a{
+    font-size: 12px;
+    color: #fff;
+    line-height: 40px;
+    text-decoration: none;
+}
+footer#footer div#footerbottompart .content h4{
+    /* border: 1px solid red; */
+    color: #fff;
+}
+#footer p{
+    color: #ccc;
+    font-size: 14px;
+}
+#footer h2{
+    color: rgb(252, 252, 252);
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+#footertoppart{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin-left: 150px;
+}
+#footermiddlepart{
+    display: flex;
+    margin-left: 150px;
+    gap: 50px;
+    padding-left: 30px;
+}
+#footer .card{
+    width:24%;
+}
+
+
+#footerbottompart{
+    border-top: 1px solid #ccc;
+    margin: 50px 50px 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    color:#fff;
+    padding: 10px 5px;
+    padding-top: 50px;
+}
+#footer .apple{
+    display: flex;
+    gap: 15px;
+}
+#footer .apple>img{
+    width: 70px;
+}
+
+#footer .social{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+#footer .social img{
+    width: 50px;
+    height: 30px;
+    border-radius: 20px;
+}
+#footer a h3{
+    color: #eee;
+    font-size: 14px;
+    padding-bottom: 10px;
+}

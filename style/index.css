@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+ .heading{
+   width: 70%;
+   margin: auto;
+ }
+ .heading>h1{
+text-align: center;
+ font-size:70px;
+ margin: auto;
+ margin-top: 90px;
+ color: #000;
+ font-weight: bold;
+ }
+.para{
+   width: 35%;
+   margin: auto;
+}
+.para>p{
+    text-align: center;
+   font-size: large;
+   margin-top: 40px;
+   font-weight: bolder;
+   color: white;
+}
+.search{
+   width: 50%;
+   margin-left: 500px;
+}
+.search>button{
+ margin-top: 20px;
+ padding: 20px;
+ border-radius: 5px;
+ background-color:#08cf65;
+ color: white;
+ width: 25%;
+ font-size: larger;
+ font-weight: bolder;
+ border: none;
+ cursor: pointer;
+
+}
+.box{
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    width: 50%;
+    font-size: larger;
+    font-weight: bolder;
+   
+}
+/* .video{
+    
+} */
+.video>button{
+    display: block;
+    margin: auto;
+    margin-top:60px;
+   border: none;
+   color: #08cf65;
+   font-size: larger;
+   font-weight: bolder;
+   background-color: transparent;
+   cursor: pointer;
+}
+/* .video .play{
+    margin: auto;
+    
+} */
+.image img{
+width: 20%;
+}
+#sub-main{
+    border: 1px solid #181f38;;
+margin-top: 20px;
+background: #181f38;   
+}
+.companyLogo{
+    border: 1px solid #181f38;
+    margin-top: 50px;
+}
+.companyLogo>p{
+text-align: center;
+  color: white;
+  background-color: #181f38;
+  padding: 30px;
+  /* margin-top: 40px;   */
+}
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-top: 20px; */
+    /* background-color: #181f38; */
+}
+.star{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    background-color: #181f38;
+    
+}
+.boce{
+width: 40%;
+background-color: #181f38;
+
+}
+.truth{
+    width: 100%;
+    margin-top: 90px;
+    background-color: #181f38;
+}
+.truth h1{
+color: white;
+background-color: #181f38;
+text-align: left;
+}
+.truth>p{
+    margin-top: 20px;
+    color: white;
+    line-height: 35px;
+    background-color: #181f38;
+}
+.truth>button{
+    margin-top: 30px;
+    border: none;
+    background-color: transparent;
+    color: #08cf65;
+    font-size: larger;
+    cursor: pointer;
+}
+.images{
+  width: 40%;
+  background-color:#181f38 ;
+    margin-bottom: 20px;
+}
+.images>img{
+    width: 100%;
+}

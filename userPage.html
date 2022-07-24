@@ -1,0 +1,54 @@
+<script>
+     let LSFuser = JSON.parse(localStorage.getItem('loggedinUser'));
+     if(LSFuser==null){
+        window.location.href='./index.html';
+     }
+</script>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrike </title>
+    <link rel="stylesheet" href="./style/userHome.css">
+
+</head>
+<body>
+
+    <nav id="navbar">
+            <div id="brandLogo">
+                <h1> WRIKE</h1>
+            </div>
+            <div id="navMenus">
+                <p id="usrname">US</p>
+            </div>
+    </nav>
+    
+    <div class="hide" id="usermenus">
+        <p id="usrmmail"></p>
+        <p id="setting"> Settings</p>
+        <p id="usrsignout">Log Out</p>
+    </div>
+
+
+    <div id="bodyArea">
+        <div id="upgradePlan">
+            <p>Inbox</p>
+            <div id="msgbox">
+
+            </div>
+            <p> No Messages</p>
+        </div>
+
+        <div id="activePlan" class="hide">
+
+        </div>
+        <button id="upgrade">Upgrade Plan</button>
+    </div>
+
+
+</body>
+</html>
+<script src="./src/usersHome.js" type="module"></script>

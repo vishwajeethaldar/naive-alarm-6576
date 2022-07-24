@@ -1,0 +1,615 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#AirMen {
+    display: flex;
+    margin-left: 55px;
+}
+
+#freeTrail>h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 52px;
+    line-height: 48px;
+    margin-top: 20px;
+}
+
+#freeTrail>#p {
+    margin-top: 45px;
+}
+
+#freeTrail>p {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+#form>input {
+    margin-top: 42px;
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid rgb(193, 191, 191);
+    padding: 15px 207px 15px 23px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-left: 0px;
+    margin-right: -2px;
+}
+
+#TrailBtn {
+    color: white;
+    background-color: rgb(8, 207, 101);
+    padding: 18px 19px 17px 19px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    margin-left: 8px;
+}
+
+#TrailBtn:hover {
+    background-color: rgb(5, 167, 81);
+}
+
+#play {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-top: 50px;
+    color: rgb(77, 77, 77);
+}
+
+#play>i {
+    margin-top: 3px;
+    margin-right: 12px;
+}
+
+#flymenImg>img {
+    margin-top: 18px;
+    height: 488px;
+    width: 653px;
+    margin-right: -83px;
+}
+#trustImg>img {
+    height: 50px;
+    margin: 0px 37px;
+}
+
+#trust>h1 {
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+
+#trust {
+    margin-top: 90px;
+    text-align: center;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(101, 118, 148);
+    font-size: 6px;
+    line-height: 20px;
+    letter-spacing: 1.5px;
+}
+#seamless {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 100px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#seamless>h3 {
+    font-weight: 500;
+}
+
+#seamless>h1 {
+    font-weight: 700;
+}
+
+#seamH3 {
+    margin-top: 35px;
+}
+
+#seamlessComp {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-left: 19px;
+}
+
+#seamlessComp>div {
+    margin: 0px 41px;
+}
+
+#seamlessComp>div>h1 {
+    font-size: 22px;
+    margin-bottom: 29px;
+}
+
+#seamlessComp>div>img {
+    margin-bottom: 30px;
+    margin-top: 80px;
+}
+
+#seamlessComp>div>p {
+    line-height: 34px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(83, 83, 83);
+}
+#videoDiv {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 70px;
+    background-color: #ebf5f3;
+    padding-top: 80px;
+    text-align: center;
+}
+
+#videoDiv>h1 {
+    margin-bottom: 30px;
+}
+
+#videoDiv>p {
+    font-size: 19px;
+    line-height: 30px;
+    color: rgb(81, 81, 81);
+    letter-spacing: 1px;
+}
+
+.video1 {
+    height: 513px;
+    width: 707px;
+    margin-top: 10px;
+}
+
+#newWeb {
+    display: flex;
+}
+
+#newWeb>#info {
+    text-align: left;
+    line-height: 30px;
+    margin-left: 75px;
+    margin-right: 90px;
+    margin-top: 150px;
+}
+
+#newWeb>#info>h1 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+#newWeb>#info>p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgb(81, 81, 81);
+
+}
+#newWeb2 {
+    display: flex;
+}
+
+#newWeb2>#info2 {
+    text-align: left;
+    line-height: 30px;
+    margin-left: 75px;
+    margin-right: 90px;
+    margin-top: 150px;
+}
+
+#newWeb2>#info2>h1 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+#newWeb2>#info2>p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgb(81, 81, 81);
+}
+#newWeb3 {
+    display: flex;
+}
+
+#newWeb3>#info3 {
+    text-align: left;
+    line-height: 30px;
+    margin-left: 75px;
+    margin-right: 86px;
+    margin-top: 150px;
+}
+
+#newWeb3>#info3>h1 {
+    font-size: 27px;
+    margin-bottom: 20px;
+}
+#newWeb3>#info3>p{
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: rgb(81, 81, 81);
+}
+#optimize{
+    display: flex;
+    height: 500px;
+    background-color: rgb(12, 50, 69);
+}
+#optimizeImg>img{
+    margin-top: 50px;
+    height: 400px;
+    width: 550px;
+}
+#optimizeInfo{
+    margin: 110px 83px 20px 86px;
+}
+#optimizeInfo>h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 27px;
+    line-height: 40px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+#optimizeInfo>p{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 34px;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+#template {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 50px;
+}
+
+#templateInfo>h1 {
+    font-size: 39px;
+    margin-bottom: 40px;
+    margin-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#templateInfo>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: rgb(81, 81, 81);
+    margin-bottom: 10px;
+}
+
+#templateInfo {
+    text-align: center;
+}
+
+#template .card>p, #template2 .card>p {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(81, 81, 81);
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+}
+#template .card:hover>p, #template2 .card:hover>p{
+    color: white;
+}
+
+#template  .card>h1, #template2  .card>h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+#template  .card>h2, #template2  .card>h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: rgb(0, 82, 82);
+    transition: .7s;
+    letter-spacing: 2px;
+}
+
+#template  .card>h4, #template2  .card>h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: rgb(81, 81, 81);
+}
+#template .card:hover>h4, #template2 .card:hover>h4{
+    color: white;
+    font-weight: 300;
+}
+#template .card, #template2 .card{
+    text-align: left;
+    background-color: #ebf5f3;
+    padding-top: 12px;
+    padding-bottom: 19px;
+    padding: 15px 0px 27px 28px;
+    border-radius: 15px;
+    transition: .7s;
+}
+
+#template .card:hover, #template2 .card:hover {
+    background-color: rgb(4, 69, 69);
+    color: white;
+}
+
+.card:hover>h2 {
+    color: rgb(102, 195, 135);
+}
+#apps {
+    display: flex;
+    width: 98.5vw;
+    overflow: hidden;
+    background-color: rgb(24, 31, 56);
+    margin-top: 30px;
+    padding-top: 50px;
+    gap: 130px;
+    padding-left: 30px;
+    overflow: hidden;
+}
+
+#apps>div>img {
+    overflow: hidden;
+}
+
+#apps>div>h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+#apps>div>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+    letter-spacing: 2px;
+    color: white;
+}
+
+#apps>div>h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 19px;
+    color: rgb(102, 195, 135);
+    margin-bottom: 32px;
+}
+#apps>div>h3{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(210, 210, 210);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+}
+
+#Appicons {
+    height: 280px;
+    width: 280px;
+    margin-top: -200px;
+    margin-left: -60px;
+    /* overflow: hidden; */
+}
+
+#icons {
+    height: 1106px;
+    width: 650px;
+}
+#reno {
+    display: flex;
+    gap: 50px;
+    margin-left: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#reno>div {
+    margin-left: 30px;
+}
+
+#reno>div>h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 49px;
+    color: rgb(51, 51, 51);
+    padding: 20px 20px;
+    letter-spacing: 2px;
+    height: 270px;
+    width: 548px;
+    margin-top: -30px;
+}
+
+#imageLogo>p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 390;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top: 71px;
+    margin-right: 36px;
+    margin-left: 22px;
+    color: rgb(81, 81, 81);
+}
+#imageLogo>img{
+  margin-top: 32px;
+  margin-left: -39px;
+}
+
+#renoImg {
+    height: 338px;
+    width: 433px;
+    border-top-left-radius: 120px;
+}
+
+#renoLogo {
+    height: 82px;
+    width: 114px;
+    margin: 0px 0px 0xp 0px;
+}
+
+#imageLogo {
+    display: flex;
+}
+
+#reno>div>h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(4, 82, 82);
+    margin-top: 13px;
+    margin-left: 22px;
+    font-weight: 500;
+    font-size: 20px;
+}
+.fa-arrow-right{
+    margin-left: 15px;
+}
+#template2 {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(auto);
+    gap: 30px;
+    padding-right: 130px;
+    /* padding-bottom: 50px; */
+    padding-left: 20px;
+    padding-top: 34px;
+    padding-right: 20px;
+    background-color: #f5f2eb;
+    padding-bottom: 60px;
+}
+
+#templateInfo2>h1 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#templateInfo2>p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+#templateInfo2 {
+    padding-top: 40px;
+    text-align: center;
+    background-color: #f5f2eb;
+
+}
+
+#template .card2>p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 11px;
+    margin-top: 13px;
+    margin-bottom: 12px;
+}
+
+#template .card2>h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 1px;
+    margin-bottom: 12px;
+}
+
+#template .card2>h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    color: rgb(0, 82, 82);
+    transition: .7s;
+}
+
+#template .card2:hover>h2 {
+    color: rgb(132, 227, 165);
+}
+
+#template .card2>h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+    line-height: 24px;
+}
+
+#template .card2 {
+    text-align: left;
+    background-color: white;
+    padding-top: 12px;
+    padding-bottom: 19px;
+    padding: 15px 0px 27px 28px;
+    border-radius: 15px;
+    transition: .7s;
+}
+
+#template .card2:hover {
+    background-color: rgb(4, 69, 69);
+    color: white;
+}
+#powerInfo>h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin: 9px 0px 25px -32px;
+    color: rgb(101, 118, 148);
+}
+
+#powerInfo>h1 {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px 0px 14px -387px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+}
+
+#powerDiv {
+    background-color: white;
+    height: 400px;
+}
+
+#powerImg1>img {
+    height: 392px;
+    width: 529px;
+    margin: 0px -167px;
+}
+
+#powerImg2>img {
+    height: 328px;
+    width: 463px;
+    margin: -251px 0px 0px 880px;
+}
+
+#powerInfo {
+    margin: -342px 0px 0px 350px;
+}
+
+#B_email {
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid rgb(193, 191, 191);
+    padding: 11px 129px 11px 19px;
+    margin: 25px 8px 0px 23px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#B_btn {
+    color: white;
+    background-color: rgb(8, 207, 101);
+    padding: 13px 15px 13px 19px;
+    font-size: 16px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 4px;
+    margin-left: 1px;
+}
