@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.4s ease;
+    color: #000;
+ }
+#mains{
+    /* max-width: 100vw; */
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 1;
+    /* border: 1px solid red; */
+    box-shadow: 0px 1px 5px #999;   
+}
+nav{
+    min-height: 70px;
+    /* width:100vw; */
+   
+}
+nav .navbar{
+    display: flex;  
+    justify-content: space-between;  
+    align-items: center;
+    padding: 0 30px;
+    gap: 20px;
+}
+.logo img{
+    width: 120px;
+}
+nav .navbar .logo a{
+    /* color: #fff; */
+    font-size: 30px;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav .navbar .nav-links{
+    line-height: 70px;
+}
+.links{
+    display: flex;
+}
+.links li{
+   list-style: none; 
+   position: relative;
+   text-decoration: none;
+   list-style: none;
+   padding: 0 14px;
+ 
+}
+.links li>ul li:first-child{
+    margin: 0px;
+}
+.links li>ul li{
+    margin: -8px 0px;
+}
+.links li>ul li:last-child{
+    margin: 0px;
+}
+.links>li>a{
+    height: 100%;
+    color: #000;
+    text-decoration: none;
+    white-space: nowrap;
+   
+}
+.linking+h3{
+    color: #000;
+    font-size: 14px;
+    width: 150px;
+}
+.links>li>ul a{
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    white-space: nowrap;
+}
+nav .navbar .nav-links .links li a:hover{
+    color: #0ac464;
+}
+nav .navbar .nav-links .links li .arrow{
+  height: 100%;
+  width: 42px;
+  text-align: center;
+  color: #fff;
+  line-height: 70px;
+ transition: all 0.3s ease;
+ 
+}
+ .navbar .nav-links .links li:hover .htmlcss-arrow,
+ .navbar .nav-links .links li:hover .js-arrow,
+ .navbar .nav-links .links li:hover .css-arrow{
+    transition: rotate(180deg);
+}
+.navbar .nav-links .links .sub-menu{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #3e8d3e;
+    line-height: 40px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 2px rgb(0, 0, 0.2);
+    display: none;
+}
+.navbar .nav-links .links .sub-menu li{
+    padding: 0 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0) ;
+}
+ .navbar .nav-links .links .sub-menu li a{
+ font-size:15px;
+ font: 500;
+}
+.navbar .nav-links .links .sub-menu li .more-arrow{
+line-height: 40px;
+}
+.navbar .nav-links .links .more:hover .more-sub-menu{
+display: block;
+}
+.navbar .nav-links .links  .more .more-sub-menu{
+position: absolute;
+top: 0;
+left: 100%;
+border-radius: 0 4px 4px 4px;
+display: none;
+}
+.navbar .nav-links .links li:hover .htmlCss-sub-menu,
+.navbar .nav-links .links li:hover .js-sub-menu,
+.navbar .nav-links .links li:hover .css-sub-menu{
+    display: block;
+}
+/* Second Div */
+ .second{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+    height: 100%;
+    line-height: 70px;
+}
+nav .navbar .second .linking li{
+    list-style: none; 
+    position: relative;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 0 14px;
+color: white;   
+    
+}
+nav .navbar .second .linking li a{
+height: 100%;
+color: #0ac464;
+text-decoration: none;
+}
+nav .navbar .second .linking li .arro{
+    height: 100%;
+    width: 22px;
+    text-align: center;
+    color: #fff;
+    line-height: 70px;
+    transition: all 0.3s ease;
+}
+.navbar .second .linking li:hover .ks-arrow{
+    transition: rotate(180deg);
+}  
+.navbar .second .linking .sub-menus{
+    position: absolute;
+    top: 70px;
+    left: 0;
+    background: #0ac464;
+    line-height: 40px;
+    border-radius: 0 0 4px 4px;
+    box-shadow: 0 1px 2px rgb(0, 0, 0.2);
+    display: none;
+}
+.navbar .second .linking .sub-menus li{
+    padding: 0 22px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+.navbar .second .linking .sub-menus li a{
+    font-size:15px;
+    /* font: 500; */
+    }
+.navbar .second .linking li:hover .sub-language{
+    display: block;
+}
+.btn {
+    border: none;
+    color:  #0ac464;
+    font-size: large;
+    font-weight: bold;
+    background-color: transparent;
+    margin-right: 10px;
+}
+.btn:hover{
+    cursor: pointer;
+    color:green ;
+}
+.btnd {
+    border: none;
+    color:  white;
+    font-size: large;
+    font-weight: bold;
+    background-color: #0ac464;
+    border-radius: 5px;
+    padding: 10px 10px 10px 15px;
+    margin-right: 10px;
+}
+input:hover{
+    cursor: pointer;
+    color:greenyellow ;
+}
+.second h3{
+    /* line-height: 30px; */
+    text-align: center;
+    width: 120px;
+    color: #999;
+    
+}
+h3:hover{
+    cursor: pointer;
+    color:#0ac464 ;
+}

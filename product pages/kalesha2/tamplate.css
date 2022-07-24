@@ -1,0 +1,279 @@
+* {
+  padding: 0;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+body > h1 {
+  margin-top: 50px;
+
+  font-size: 50px;
+}
+.flexdiv {
+  display: flex;
+  /* grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(auto); */
+  margin-left: 30px;
+  /* border: 1px solid green; */
+}
+.flexdiv1 {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(auto);
+  margin-left: 30px;
+  /* border: 1px solid blue; */
+}
+.card {
+  margin-top: 180px;
+  margin-left: 20px;
+  /* border:1px solid red; */
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 80px 80px;
+  background: teal;
+  cursor: pointer;
+}
+
+.card:hover {
+  height: 300px;
+}
+
+.imgbox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transform: translateY(-150px);
+}
+img {
+  width: 145%;
+  margin-left: -40px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  /* margin-bottom:-150px */
+}
+.content {
+  padding: 10px 10px;
+  text-align: center;
+  transform: translateY(-250px);
+  opacity: 0;
+  transition: 0.3s;
+}
+.head > h2 {
+  font-size: 10px;
+  width: 100%;
+  margin-left: -50px;
+  text-align: center;
+  /* text-align: start; */
+  /* margin:auto */
+}
+.head1 > h1 {
+  font-size: 18px;
+  width: 230%;
+  margin-left: -70px;
+  text-align: start;
+}
+.para {
+  width: 100%;
+  font-size: 17px;
+  width: 200%;
+  margin-left: -70px;
+  text-align: start;
+}
+
+.card:hover > .content {
+  height: 300px;
+  opacity: 1;
+  transform: translateY(-130px);
+}
+.card:hover .head {
+  color: black;
+}
+.card:hover .head1 {
+  color: white;
+}
+.card:hover .para {
+  color: white;
+}
+/*------------------------------------------ CARD1 PART-------------------------------- */
+.card1 {
+  margin-top: 200px;
+  margin-left: 20px;
+  /* border:1px solid red; */
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  padding: 80px 80px;
+  /* background: teal; */
+  background: rgb(80, 152, 185);
+  cursor: pointer;
+}
+.card1:hover {
+  height: 300px;
+}
+.card1:hover > .content {
+  height: 300px;
+  opacity: 1;
+  transform: translateY(-130px);
+}
+.card1:hover .head {
+  color: black;
+}
+.card1:hover .head1 {
+  color: white;
+}
+.card1:hover .para {
+  color: white;
+}
+
+/* ---------Search bar css part ---------------- */
+.flexbox {
+  background: #f2eee3;
+  width: 100%;
+  height: 40%;
+  display: flex;
+
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* border: 1px solid red; */
+}
+.search > h1 {
+  margin: 20px;
+}
+.search > div {
+  display: inline-block;
+  position: relative;
+}
+.search > div:after {
+  content: "";
+  background: black;
+  width: 4px;
+  height: 20px;
+  position: absolute;
+  top: 40px;
+  right: 2px;
+  transform: rotate(135deg);
+}
+.search > div > input {
+  color: black;
+  font-size: 16px;
+  background: transparent;
+  width: 25px;
+  height: 25px;
+  padding: 10px;
+  border: solid 3px black;
+  outline: none;
+  border-radius: 35px;
+  transition: width 0.5s;
+}
+.search > div > input::placeholder {
+  color: black;
+  opacity: 0;
+  transition: opacity 150ms ease-out;
+}
+.search > div > input:focus::placeholder {
+  opacity: 1;
+}
+.search > div > input:focus,
+.search > div > input:not(:placeholder-shown) {
+  width: 250px;
+}
+
+/*--------------- filter css --------------*/
+.dropdown1{
+  display: flex;
+}
+.dropdown{
+    border:none;
+    display: flex;
+    gap:30px;
+    padding-left:20px;
+    padding-right:20px;
+    color:black;
+    transition: 3s;
+    /* display: inline-block; */
+    /* visibility: hidden; */
+
+}
+/* .dropdown button :hover{
+    
+} */
+.dropdown>div>div{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); 
+     z-index: 1;
+     visibility: hidden;
+}
+
+.dropdown:hover >div>div{
+    visibility: visible;
+    display: flex;
+    gap:20px;
+    margin-top:20px;
+   
+    /* background-color: black; */
+}
+.dropdown:hover >div>button{
+ background-color: aquamarine;
+ color: black;
+ 
+}
+/* .dropdown:hover >div>.base{
+  background-color: aquamarine;
+  border:1px solid red;
+  color: black;
+} */
+
+.dropdown div>button{
+    display: block;
+    /* display: flex; */
+    text-decoration: none;
+    padding: 8px;
+    border:1px solid black;
+    background: rgb(196, 113, 113);
+    color: white;
+    /* color:#0000; */
+}
+/* .container {
+  border: 1px solid teal;
+  width:100%;
+  height: 400px;
+  display:flex;
+  gap:13px;
+}
+.inside-container{
+    margin: auto;
+    margin-top:20px;
+    width:auto;
+    height:auto;
+    
+    border:1px solid red;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.image-container{
+     border-radius: 5px;
+    border:1px solid blue
+}
+.image-container > img {
+  width: 100%;
+  height:auto;
+  border:1px solid yellowgreen;
+
+  
+  
+  height: 190px;
+
+}
+.head{
+    font-size: 20px;
+}
+.head1{
+    font-size: 25px;
+} */
